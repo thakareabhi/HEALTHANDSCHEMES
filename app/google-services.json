@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "207367952739",
+    "firebase_url": "https://health-and-schemes.firebaseio.com",
+    "project_id": "health-and-schemes",
+    "storage_bucket": "health-and-schemes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207367952739:android:8fd56af6b06c3f808adb56",
+        "android_client_info": {
+          "package_name": "com.example.healthandschemes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207367952739-5t0vttpknv2oddf4e421cs64vpfe99mr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.healthandschemes",
+            "certificate_hash": "ee646657f6493ade1dc1125edc0617b3e789e6f8"
+          }
+        },
+        {
+          "client_id": "207367952739-t3eht1h36gc5c1p0l2m4vjeechsrdts4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUUBPTEpY8uX4DGEcGctonjkRiUVRt4to"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207367952739-t3eht1h36gc5c1p0l2m4vjeechsrdts4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
