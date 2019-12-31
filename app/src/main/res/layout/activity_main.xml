@@ -4,38 +4,69 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     tools:context=".MainActivity">
 
 
     <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="@color/colorPrimary"
-        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center"
         android:orientation="vertical"
-        android:padding="@dimen/activity_horizontal_margin">
+        android:padding="@dimen/activity_vertical_margin">
 
 
-        <ImageView
-            android:layout_width="@dimen/logo_w_h"
-            android:layout_height="@dimen/logo_w_h"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="30dp"
-            android:src="@drawable/ic_launcher" />
 
         <Button
             android:id="@+id/sign_out"
             style="?android:textAppearanceSmall"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorAccent1"
             android:text="@string/btn_sign_out"
             android:textColor="@android:color/white"
             android:textStyle="bold" />
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center"
+        android:orientation="horizontal"
+        android:layout_marginTop="75dp">
+
+
+        <Button
+<<<<<<< Updated upstream
+            android:id="@+id/sign_out"
+=======
+            android:id="@+id/emergency"
+            style="?android:textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorAccent1"
+            android:text="@string/btn_emergency"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/schemes"
+>>>>>>> Stashed changes
+            style="?android:textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorAccent1"
+            android:text="Scehmes"
+            android:layout_marginStart="5dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
 
 
     <ProgressBar

@@ -15,6 +15,10 @@ import com.google.firebase.auth.FirebaseUser;
 public class MainActivity extends AppCompatActivity {
 
     private Button signOut;
+<<<<<<< Updated upstream
+=======
+    Button buttonEmergency, buttonSchemes;
+>>>>>>> Stashed changes
     private ProgressBar progressBar;
     private FirebaseAuth.AuthStateListener authListener;
     private FirebaseAuth auth;
@@ -23,10 +27,34 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+<<<<<<< Updated upstream
+=======
+
+        buttonEmergency = findViewById(R.id.emergency);
+        buttonSchemes = findViewById(R.id.schemes);
+
+        buttonEmergency.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Toast.makeText(MainActivity.this,"LOGIN NORMAL EMERGENCY DETECTED",Toast.LENGTH_SHORT).show();
+                Intent intent1=new Intent(MainActivity.this, OldHospitalSearch.class);
+                startActivity(intent1);
+            }
+        });
+>>>>>>> Stashed changes
         //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         //toolbar.setTitle(getString(R.string.app_name));
         //setSupportActionBar(toolbar);
 
+<<<<<<< Updated upstream
+=======
+        buttonSchemes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, SchemesActivity.class));
+            }
+        });
+
+>>>>>>> Stashed changes
         //get firebase auth instance
         auth = FirebaseAuth.getInstance();
 

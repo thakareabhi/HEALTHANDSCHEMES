@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SchemeDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:textAlignment="center"
+        android:orientation="vertical"
+        android:gravity="top|center">
+    <TextView
+        android:id="@+id/schemeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pandit Deen Dayal Scheme"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/schemeDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:textSize="15sp"
+        android:text="Description:\n\nThe Insurance cover shall be up to;\n i) Rs. 2.5 lakhs per annum for a family of three or less members and up to;  \nii) Rs. 4 Lakhs for a family of four and more members.\nThe Insurance benefits can be availed individually or collectively by members of the family. Pre-existing medical conditions are to be covered from day one, subject to the exclusions given in Annexure 5B "/>
+
+    <TextView
+        android:id="@+id/schemeDocuments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:text="Documents Required:\n\n1) *Aadhaar Card / Enrollment Acknowledgement Slip of every family member above age of 5 years.(Compulsory)\n2) * Residence Proof of eligible person: ( All Documents issued minimum 5 years ago) a. Passport b. Residence Certificate (5 years residence in goa state) c. Voter ID d. Driving License\n3) Ration card to define a family."
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/schemeEligibility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:text="Eligibility:\n\nAny person residing in the State of Goa for five years or more is declared eligible person under DDSSY “Family” of eligible person is defined as his/her Spouse and Unmarried children and Dependent Parent(s) / In-Laws (Incase eligible Family person is female). This Family unit cannot be split.."
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/schemeLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_margin="15sp"
+        android:text="Link:\nhttps://stackoverflow.com/questions/8180887/how-to-align-linearlayout-at-the-center-of-its-parent"/>
+    </LinearLayout>
+</ScrollView>
