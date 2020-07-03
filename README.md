@@ -12,7 +12,7 @@ This project is solution for a problem statement in SIH 2020
 
 **Screenshots** :
 
-![](WhatsApp%20Image%202020-07-03%20at%205.05.51%20PM%20.jpeg)
+
 ![](WhatsApp%20Image%202020-07-03%20at%205.05.51%20PM%20(1).jpeg)
 ![](WhatsApp%20Image%202020-07-03%20at%205.05.51%20PM%20(2).jpeg)
 
