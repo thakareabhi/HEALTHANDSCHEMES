@@ -7,3 +7,5 @@ This project is solution for a problem statement in SIH 2020
 **Industry** : Ministry of Housing and Urban Affairs - BC77
 
 **Domain** : Healthcare & Biomedical Devices
+
+**Screenshots** :
